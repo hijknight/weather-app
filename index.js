@@ -9,7 +9,7 @@ const error404 = document.querySelector('.not-found');
 
 
 search.addEventListener('click', () => {
-    const APIKeyWeather = '';
+    const APIKeyWeather = '6bb305dc81763ab2e65b4a5c897ca921';
     const location = document.querySelector('.search-box input').value;
 
     if (location === '') {
